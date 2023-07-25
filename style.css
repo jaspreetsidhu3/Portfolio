@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	font-family: 'Gotham';
+	
+	font-style: normal;
+}
+body{
+	
+	font-family: 'Gotham', sans-serif;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.bg-night{
+	background-color: black;
+	color: white;
+}
+#strong-message{
+	font-size: xx-large;
+	font-weight: bolder;
+}
+p{
+	font-family: 'Gotham', sans-serif;
+	color: white !important;
+}
+.name{
+	margin-top: 10%;
+}
+.info{
+	text-align: justify;
+	padding: 52px;
+
+	padding-right: 70%;
+	padding-left: 70%;
+}
+.name{
+	font-size: 60pt;
+	font-family: Gotham;
+	font-weight: bold;
+	font-style: normal;
+	color: white;
+	text-decoration: none;
+}
+
+p{
+	color: black;
+}
+
+.socialIcon{
+	margin: 0.3em;
+	cursor: pointer;
+}
+
+h1{
+	font-family: 'Gotham', sans-serif;
+	color: white;
+}
+#cardview:hover{
+	transition: 2s all;
+}
+#cardview:hover>#cardimg{
+	transform: scale(1.01);
+	transition: 1s all;
+}
+#cardtxt{
+	color: gold;
+	display: none;
+}
+#cardview:hover #cardtxt{
+	display: block;	
+	opacity: 1;
+	filter: brightness(100%);
+}
+.socialIcon:hover{
+	transform: scale(1.5);
+	transition: 1s all;
+}
+.btn-warning{
+	border-radius: 40px !important;
+}
+.shadow{
+	box-shadow: 1px 1px 9px 0px white
+}
