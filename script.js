@@ -45,6 +45,9 @@ bodyContent.innerHTML=`<div class="bg-dark p-5">
 <button href="https://drive.google.com/file/d/1JsWJZHR-xOM8RYydloHdvXR39YOg8rIl/view?usp=sharing"
     target="_blank" id="sp" class="btn btn-warning">Download Resume</button>
 </div>
+<div class="bg-dark d-flex justify-content-center">
+<small class="text-white text-center">Portfolio last updated: 22-02-2023</small>
+</div>
 
 <div class="d-flex justify-content-center bg-dark p-5" id="socialNav">
 
