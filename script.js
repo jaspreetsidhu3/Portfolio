@@ -65,9 +65,9 @@ bodyContent.innerHTML=`<div class="bg-dark p-5">
 function experience(){
 bodyContent.innerHTML=` <div class="bg-dark text-white" style="height:90vh">
     <div class="container">
-        <div class="row">
+        <div class="row p-2">
             <div class="col-md-12">
-                <h3 class="text-white mt-5">Experience</h3>
+                <h3 class="text-center text-white mt-5">Experience</h3>
             </div>
         </div>
         <div class="ml-4 mt-2">
@@ -107,11 +107,11 @@ bodyContent.innerHTML=` <div class="bg-dark text-white" style="height:90vh">
 `;
 }
 function projects(){
-bodyContent.innerHTML=`<div class=" Project bg-dark text-white">
-<div class="container p-5">
+bodyContent.innerHTML=`<div class="Project bg-dark text-white">
+<div class="container p-2">
     <div class="row">
         <div class="col-md-12">
-            <h1 class="text-dark text-center" style="color: black">Selected Projects</h1>
+            <h3 class="text-center text-white mt-5" style="color: black">Selected Projects</h3>
         </div>
     </div>
     <div class="row align-items-center m-auto" id="block">
@@ -148,14 +148,17 @@ bodyContent.innerHTML=`<div class=" Project bg-dark text-white">
     <div class="row mt-3">
         <div class="col-lg-7">
             <div class="border-0" id="cardview">
-                <img class="card-img" id="cardimg" src="img/twitch.png">
+                <img class="card-img" id="cardimg" src="img/screenshots.png">
             </div>
         </div>
         <div class="col-lg-5">
             <h3 class="card-title text-center">MelGel</h3>
-            <p class="card-text">Implemented by using: Android (Java)</p>
+            <p class="card-text">Implemented by using: Android (Java), Firebase authentication, Room database</p>
             <p class="card-text">Description: Android application where users can share 
             social media profiles to others users via QR Code </p>
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-warning" onClick="melgelClick">GitHub (private repo)</button>
+            </div>
         </div>
     </div>
 
@@ -204,9 +207,9 @@ bodyContent.innerHTML=`<div class=" Project bg-dark text-white">
 function skills(){
 bodyContent.innerHTML=`<div class="bg-dark">
 <div class="container">
-    <div class="row p-5">
+    <div class="row p-2">
         <div class="col-md-12">
-            <h3 class="text-center text-white mt-3">Skills</h3>
+            <h3 class="text-center text-white mt-5">Skills</h3>
         </div>
     </div>
     <div class="row p-3">
@@ -472,5 +475,8 @@ function knightRedirect(){
 }
 function knowMoreCodler(){
     window.open("https://microsoftedge.microsoft.com/addons/search?developer=Codler");
+}
+function melgelClick(){
+    window.open("https://github.com/jaspreetsidhu3/MelGel");
 }
 home();
