@@ -42,16 +42,7 @@ bodyContent.innerHTML=`
         			<center><span id="update" class="text-light">A software developer with a passion for crafting sophisticated applications!</span></center>
     		</div>
 
-    		<div class="col-md-12 info" id="aboutme">
-    			<div class="container">
-    			
-    			</div>
-                <div id="info"  class="container" style="margin-top: 30px;">
-                <p id="para" class="text-justify" style="font-family: calibri;font-size: 20px">
-                </p>
-                </div>
-    		</div>
-            <div class="align-items-center pb-3" id="social">
+            <div class="align-items-center pb-3 mt-5" id="social">
     			<center>
     			<img src="icon/i.png" class="socialIcon" height="25px" width="25px" onclick="linkedin()">
     			&nbsp&nbsp&nbsp
@@ -64,7 +55,9 @@ bodyContent.innerHTML=`
                 <img src="icon/f.png" class="socialIcon" height="25px" width="25px" onclick="fb()">
                 </center>
             </div>
-    	</div>`;
+            <br><br>
+    	</div>
+        </div>`;
 }
 function experience(){
 bodyContent.innerHTML=` <div class="bg-dark text-white" style="height:92.5vh">
