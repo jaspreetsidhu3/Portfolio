@@ -6,6 +6,14 @@
 	
 	font-style: normal;
 }
+.home {
+	font-family: 'Montserrat', sans-serif;
+	height: 92.5vh;
+	width: 100% !important;
+	background-image: url('img/bg1.jfif');
+	background-position: center;
+	background-attachment: fixed;
+}
 body{
 	
 	font-family: 'Gotham', sans-serif;

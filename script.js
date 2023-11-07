@@ -33,40 +33,44 @@ for(let i=0;i<navLinks.length;i++){
 }
 
 function home(){
-bodyContent.innerHTML=`<div class="bg-dark p-5">
-<div>
-    <h1 class="text-center text-light pt-5">Hi I'm Jaspreet Singh</h1>
-    <p id="summary" class="text-light text-center">A software developer with a passion for
-        crafting sophisticated applications!</p>
-</div>
+bodyContent.innerHTML=`
+<div class="home bg-dark" id="header" style="margin-top: auto;font-family: Montserrat" >
+    		<div class="col-md-12">
+                <br><br>
+				<center><h1 id="resp" class="name text-md-center embed-responsive">Hi I'm Jaspreet Singh</h1></center>
+    			<br>
+        			<center><span id="update" class="text-light">A software developer with a passion for crafting sophisticated applications!</span></center>
+    		</div>
 
-</div>
-<div class="d-flex justify-content-center bg-dark p-5">
-<button href="https://drive.google.com/file/d/1JsWJZHR-xOM8RYydloHdvXR39YOg8rIl/view?usp=sharing"
-    target="_blank" id="sp" class="btn btn-warning">Download Resume</button>
-</div>
-<div class="bg-dark d-flex justify-content-center">
-<small class="text-white text-center">Portfolio last updated: 22-02-2023</small>
-</div>
-
-<div class="d-flex justify-content-center bg-dark p-5" id="socialNav">
-
-<img src="icon/i.png" class="socialIcon" height="20px" width="20px" onclick="linkedin()">
-<img src="icon/g.png" class="socialIcon" height="20px" width="20px" onclick="git()">
-<img src="icon/m3.svg" class="socialIcon" height="20px" width="20px" onclick="mail()">
-<img src="icon/f.png" class="socialIcon" height="20px" width="20px" onclick="fb()">
-
-</div>
-
-<!--Message-->
-<div class="bg-night d-flex justify-content-center p-5" style="height:25vh">
-<h1 id="strong-message">
-    Code. Create. Conquer. Repeat.
-</h1>
-</div>`;
+    		<div class="col-md-12 info" id="aboutme">
+    			<div class="container">
+    			
+    			</div>
+                <div id="info"  class="container" style="margin-top: 30px;">
+                <p id="para" class="text-justify" style="font-family: calibri;font-size: 20px">
+                </p>
+                </div>
+    		</div>
+    		<br/><br/>	<br/><br/>
+    		<div class="align-items-center pb-3" id="social">
+    			<center>
+    			<img src="icon/i.png" class="socialIcon" height="25px" width="25px" onclick="linkedin()">
+    			&nbsp&nbsp&nbsp
+    			<img src="icon/g.png" class="socialIcon" height="25px" width="25px" onclick="git()">
+    			&nbsp&nbsp&nbsp
+                
+    			<img src="icon/m3.svg" class="socialIcon" height="25px" width="25px" onclick="mail()">
+    			&nbsp&nbsp&nbsp
+    			
+                <img src="icon/f.png" class="socialIcon" height="25px" width="25px" onclick="fb()">
+                </center>
+                
+            </div>
+            <br/>    <br/>
+    	</div>`;
 }
 function experience(){
-bodyContent.innerHTML=` <div class="bg-dark text-white" style="height:90vh">
+bodyContent.innerHTML=` <div class="bg-dark text-white" style="height:92.5vh">
     <div class="container">
         <div class="row p-2">
             <div class="col-md-12">
@@ -430,7 +434,7 @@ bodyContent.innerHTML=`<div class="bg-dark">
 `;
 }
 function contact(){
-bodyContent.innerHTML=` <div class="Contact bg-dark" style="height:90vh">
+bodyContent.innerHTML=` <div class="Contact bg-dark" style="height:92.5vh">
 <div class="container">
     <div class="row p-5">
         <div class="col-md-12">
