@@ -64,7 +64,6 @@ bodyContent.innerHTML=`
     			
                 <img src="icon/f.png" class="socialIcon" height="25px" width="25px" onclick="fb()">
                 </center>
-                
             </div>
             <br/>    <br/>
     	</div>`;
