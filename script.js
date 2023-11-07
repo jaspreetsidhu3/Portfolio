@@ -51,8 +51,7 @@ bodyContent.innerHTML=`
                 </p>
                 </div>
     		</div>
-    		<br/><br/>	<br/><br/>
-    		<div class="align-items-center pb-3" id="social">
+            <div class="align-items-center pb-3" id="social">
     			<center>
     			<img src="icon/i.png" class="socialIcon" height="25px" width="25px" onclick="linkedin()">
     			&nbsp&nbsp&nbsp
@@ -65,7 +64,6 @@ bodyContent.innerHTML=`
                 <img src="icon/f.png" class="socialIcon" height="25px" width="25px" onclick="fb()">
                 </center>
             </div>
-            <br/>    <br/>
     	</div>`;
 }
 function experience(){
