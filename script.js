@@ -37,10 +37,15 @@ bodyContent.innerHTML=`
 <div class="home bg-dark" id="header" style="margin-top: auto;font-family: Montserrat" >
     		<div class="col-md-12">
                 <br><br>
-				<center><h1 id="resp" class="name text-md-center embed-responsive">Hi I'm Jaspreet Singh</h1></center>
+				<center><h1 id="resp" class="name text-md-center embed-responsive">Hi! I'm Jaspreet Singh</h1></center>
     			<br>
-        			<center><span id="update" class="text-light">A software developer with a passion for crafting sophisticated applications!</span></center>
     		</div>
+            <div class="container">
+            <p id="update" class="text-center text-light">Passionate Software Quality Assurance Student with a Strong .NET Development Background 
+                    seeking opportunities to apply my skills, collaborate with dynamic teams, and further enhance my 
+                    expertise in ensuring top-notch software quality</p>
+            </div>
+            
 
             <div class="align-items-center pb-3 mt-5" id="social">
     			<center>
@@ -64,40 +69,41 @@ bodyContent.innerHTML=` <div class="bg-dark text-white" style="height:92.5vh">
     <div class="container">
         <div class="row p-2">
             <div class="col-md-12">
-                <h3 class="text-center text-white mt-5">Experience</h3>
+                <h2 class="text-white mt-5">Experience</h2>
             </div>
         </div>
         <div class="ml-4 mt-2">
-            <h3 class="text-white">Work Experience</h3>
+            <h4 class="text-white">Work Experience</h4>
             <div class="row">
-                <div class="col-md-6">
-                    <h4>Software Engineer</h4>
+                <div class="ml-4">
+                    <h4>Engineer</h4>
                     <p>Nagarro Software PVT LTD - India</p>
+                    <p>2021-2022</p>
                 </div>
-                <div class="col-md-6">
-                    <h5>
-                        2021-2022
-                    </h5>
-                </div>
-                <small class="ml-3">I worked with DOTNET technology and gained experience in Web APIs, Oracle database, Angular, Worker services, Kafka, and Redis Cache.
-                </small>
             </div>
         </div>
+        <hr class="bg-light">
         <div class="ml-4 mt-5">
             <h3 class="text-white">Education</h3>
             <div class="row">
-                <div class="col-md-6">
-                    <h4>B.TECH CSE</h4>
-                    <p>Rayat Bahra University - Punjab, India</p>
+                <div class="ml-4">
+                    <h4>Software Quality Assurance and Test Engineering</h4>
+                    <h6>Graduate Certificate</h6>
+                    <p>Conestoga College, Waterloo, Canada</p>
+                    <p>
+                    2023-2024
+                    </p>
             </div>
-            <div class="col-md-6">
-                <h5>
+            </div>
+            <div class="row">
+                <div class="ml-4">
+                    <h4>Computer Science and Engineering</h4>
+                    <h6>Bachelors of Technology</h6>
+                    <p>Rayat Bahra University, Punjab, India</p>
+                    <p>
                     2017-2021
-                </h5>
+                    </p>
             </div>
-            <small class="ml-3">I graduated from the university in 2021 with 84% marks. I studied Programming languages, 
-            Database management, Operating system, Networking, Data structures, Android development, and other subjects.
-            </small>
         </div>
     </div>
 </div>  
